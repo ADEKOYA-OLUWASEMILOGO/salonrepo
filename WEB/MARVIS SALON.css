@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url(onye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+}
+.top{
+    padding: 20px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: coral;
+}
+.mar{
+    padding-left: 10px;
+}
+.top ul{
+    margin-left: 400px;
+}
+.top ul li{
+    margin:0;
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 11pt;
+    font-weight: 500;
+}
+.top ul li a{
+    text-decoration: none;
+    color:white;
+}
+.top ul li a:hover{
+    border-bottom: solid 3px coral;
+}
+.logo{
+    float: left;
+    padding:10px;
+    font-size: 18pt;
+    line-height: 15px;
+    font-weight: bolder;
+}   
+.icon{
+    width: 50px;
+} 
+.mainnote{
+    font-size: 28pt;
+    font-weight: lighter;
+    color: cornflowerblue;
+    margin-left: 70px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.state{
+    background-image: url(mal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+.input{
+    border: 3px solid cornflowerblue;
+    padding: 5px;
+    font-size: 14pt;
+    color: white;
+    background-color: cornflowerblue;
+}
+.input:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+.submain{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:30px;
+    margin-top: 50px;
+}
+.text{
+    text-align: center;
+    padding:5px;
+    font-size: 14pt;
+    color: coral;
+}
+.contact{
+    float: left;
+    color: white;
+}
+.contact a{
+    text-decoration: none;
+    color: coral;
+}
+.shesh{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.con{
+    margin-top:0;
+}
+.footnote{
+    text-align: center;
+    border: 2px solid goldenrod;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: goldenrod;
+}
+.down{
+    color: white;
+}
+.buto{
+    background-color: white;
+    padding: 5px;
+}
+.foot{
+    text-align: center;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+    color: coral;
+}
+.beaut{
+    color: coral;
+}
+marquee{
+    color: white;
+    padding: 5px/;
+}
